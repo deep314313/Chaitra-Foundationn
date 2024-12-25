@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="900" viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base map outline -->
+  <path d="M400 100 Q450 150 500 200 L550 300 Q600 400 550 500 L500 600 Q450 700 400 750 Q350 700 300 600 L250 500 Q200 400 250 300 L300 200 Q350 150 400 100" 
+        fill="#e0e0e0" stroke="#999" stroke-width="2"/>
+  
+  <!-- Highlighted states -->
+  <!-- Karnataka -->
+  <path d="M380 450 Q400 470 420 450 L440 430 Q460 410 440 390 L420 370 Q400 350 380 370 L360 390 Q340 410 360 430 Z" 
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Karnataka</title>
+  </path>
+  
+  <!-- Tamil Nadu -->
+  <path d="M400 500 Q420 520 440 500 L460 480 Q480 460 460 440 L440 420 Q420 400 400 420 L380 440 Q360 460 380 480 Z"
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Tamil Nadu</title>
+  </path>
+  
+  <!-- Kerala -->
+  <path d="M360 500 Q380 520 400 500 L420 480 Q440 460 420 440 L400 420 Q380 400 360 420 L340 440 Q320 460 340 480 Z"
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Kerala</title>
+  </path>
+  
+  <!-- Andhra Pradesh -->
+  <path d="M420 400 Q440 420 460 400 L480 380 Q500 360 480 340 L460 320 Q440 300 420 320 L400 340 Q380 360 400 380 Z"
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Andhra Pradesh</title>
+  </path>
+  
+  <!-- Telangana -->
+  <path d="M400 350 Q420 370 440 350 L460 330 Q480 310 460 290 L440 270 Q420 250 400 270 L380 290 Q360 310 380 330 Z"
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Telangana</title>
+  </path>
+  
+  <!-- Maharashtra -->
+  <path d="M380 300 Q400 320 420 300 L440 280 Q460 260 440 240 L420 220 Q400 200 380 220 L360 240 Q340 260 360 280 Z"
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Maharashtra</title>
+  </path>
+  
+  <!-- Goa -->
+  <path d="M340 400 Q360 420 380 400 L400 380 Q420 360 400 340 L380 320 Q360 300 340 320 L320 340 Q300 360 320 380 Z"
+        fill="#007bff" stroke="#fff" stroke-width="1">
+    <title>Goa</title>
+  </path>
+</svg>

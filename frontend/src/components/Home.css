@@ -1,0 +1,76 @@
+.map-markers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* State marker positions */
+.state-marker:nth-child(1) { /* Karnataka */
+  top: 65%;
+  left: 45%;
+}
+
+.state-marker:nth-child(2) { /* Tamil Nadu */
+  top: 75%;
+  left: 50%;
+}
+
+.state-marker:nth-child(3) { /* Kerala */
+  top: 75%;
+  left: 45%;
+}
+
+.state-marker:nth-child(4) { /* Andhra Pradesh */
+  top: 55%;
+  left: 50%;
+}
+
+.state-marker:nth-child(5) { /* Telangana */
+  top: 50%;
+  left: 48%;
+}
+
+.state-marker:nth-child(6) { /* Maharashtra */
+  top: 45%;
+  left: 42%;
+}
+
+.state-marker:nth-child(7) { /* Goa */
+  top: 58%;
+  left: 40%;
+}
+
+.state-marker {
+  transition: transform 0.2s ease;
+}
+
+.state-marker:hover {
+  transform: scale(1.5);
+  z-index: 100;
+}
+
+/* Add a pulse animation to the markers */
+.state-marker::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
