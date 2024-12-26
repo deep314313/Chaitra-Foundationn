@@ -34,13 +34,21 @@ const Contact = () => {
         
         <Col md={6} className="mt-4 mt-md-0">
           <h3>Our Location</h3>
-          <p>123 Charity Street</p>
-          <p>Bangalore, Karnataka</p>
-          <p>India</p>
+          <p>E-28 Om Vihar Phase-5</p>
+          <p>Uttam Nagar, New Delhi</p>
+          <p>110059</p>
           
-          <h3 className="mt-4">Contact Information</h3>
-          <p>Email: info@chaitrafoundation.org</p>
-          <p>Phone: +91 1234567890</p>
+          <div className="contact-info">
+            <h3>Contact Information</h3>
+            <p>
+              <i className="fas fa-phone"></i>
+              +91 9868314313
+            </p>
+            <p>
+              <i className="fas fa-envelope"></i>
+              d.gupta9868@gmail.com
+            </p>
+          </div>
           
           <h3 className="mt-4">Hours of Operation</h3>
           <p>Monday - Friday: 9:00 AM - 6:00 PM</p>

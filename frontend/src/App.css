@@ -1,0 +1,38 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-photo-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.profile-photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.donation-card {
+  transition: transform 0.2s;
+}
+
+.donation-card:hover {
+  transform: translateY(-2px);
+}
+
+.image-preview img {
+  transition: transform 0.2s;
+}
+
+.image-preview img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.about-image {
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-image:hover {
+  transform: scale(1.02);
+}
+
+.about-section {
+  margin-bottom: 4rem;
+}
+
+.about-text {
+  padding: 2rem;
+}
+
+.blue-section {
+  background-color: #007bff;
+  color: white;
+  padding: 2.5rem 0;
+}
+
+.blue-section h1,
+.blue-section p {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.blue-section .lead {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    padding: 1rem 0;
+  }
+  
+  .about-image {
+    margin-bottom: 2rem;
+  }
+}

@@ -3,8 +3,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const authRoutes = require('./routes/auth');
-const donationRoutes = require('./routes/donations');
-const userRoutes = require('./routes/users');
+const donationRoutes = require('./routes/donationRoutes');
+const userRoutes = require('./routes/userRoutes');
 
 const app = express();
 
@@ -35,4 +35,3 @@ app.use(express.static(path.join(__dirname, '../frontend/build')));
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/build', 'index.html'));
 });
-
