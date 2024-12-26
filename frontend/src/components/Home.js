@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Home.css';
+import image from '../assets/image.png';
 
 const Home = () => {
   const impactStats = [
@@ -63,7 +64,7 @@ const Home = () => {
             <Col md={6}>
               <div className="position-relative">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/8/8c/India_states_and_union_territories_map.svg" 
+                  src={image}
                   alt="India Map" 
                   className="img-fluid" 
                   style={{

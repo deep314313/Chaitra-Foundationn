@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e971d9db.css",
+    "main.js": "/static/js/main.c2c0f573.js",
+    "static/media/Chaitra_Logo.jpg": "/static/media/Chaitra_Logo.16f227a976eae814761e.jpg",
+    "static/media/logo.svg": "/static/media/logo.19de6ba4f6ac3307a35c0f25468c7a12.svg",
+    "index.html": "/index.html",
+    "main.e971d9db.css.map": "/static/css/main.e971d9db.css.map",
+    "main.c2c0f573.js.map": "/static/js/main.c2c0f573.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e971d9db.css",
+    "static/js/main.c2c0f573.js"
+  ]
+}
