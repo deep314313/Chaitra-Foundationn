@@ -48,7 +48,7 @@ function Donate() {
     try {
       const token = localStorage.getItem('token');
       await axios.post(
-        'http://localhost:5000/api/donations',
+        'https://chaitrafoundation.onrender.com/api/donations',
         {
           items,
           pickupAddress,

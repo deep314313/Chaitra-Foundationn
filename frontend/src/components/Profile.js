@@ -15,7 +15,7 @@ const Profile = () => {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/auth/profile', {
+        const response = await axios.get('https://chaitrafoundation.onrender.com/api/auth/profile', {
           headers: { Authorization: `Bearer ${token}` }
         });
         setProfile(response.data);
@@ -30,7 +30,7 @@ const Profile = () => {
 
     const fetchDonations = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/donations/my-donations', {
+        const response = await axios.get('https://chaitrafoundation.onrender.com/api/donations/my-donations', {
           headers: { Authorization: `Bearer ${token}` }
         });
         setDonations(response.data);
@@ -83,7 +83,7 @@ const Profile = () => {
 
       console.log('Uploading photo...'); // Debug log
 
-      const response = await axios.put('http://localhost:5000/api/auth/profile-photo', formData, {
+      const response = await axios.put('https://chaitrafoundation.onrender.com/api/auth/profile-photo', formData, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'multipart/form-data'

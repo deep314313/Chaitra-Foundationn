@@ -67,7 +67,7 @@ const Donate = () => {
         }
       });
 
-      const response = await axios.post('http://localhost:5000/api/donations/clothes', formDataToSend, {
+      const response = await axios.post('https://chaitrafoundation.onrender.com/api/donations/clothes', formDataToSend, {
         headers: {
           Authorization: `Bearer ${token}`,
           'Content-Type': 'multipart/form-data'
@@ -103,7 +103,7 @@ const Donate = () => {
       setError('');
 
       const orderResponse = await axios.post(
-        'http://localhost:5000/api/donations/fund/create-order',
+        'https://chaitrafoundation.onrender.com/api/donations/fund/create-order',
         { amount: donationAmount },
         {
           headers: { Authorization: `Bearer ${token}` }
@@ -122,7 +122,7 @@ const Donate = () => {
         handler: async function (response) {
           try {
             const verifyResponse = await axios.post(
-              'http://localhost:5000/api/donations/fund/verify',
+              'https://chaitrafoundation.onrender.com/api/donations/fund/verify',
               {
                 orderId: response.razorpay_order_id,
                 paymentId: response.razorpay_payment_id,
